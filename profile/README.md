@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo.svg" alt="Attos Cloud" width="220">
+</p>
+
 # Attos Cloud
 
 Attos Cloud is a read-only key-value store for read-heavy data. It compiles your data into one memory-mapped file that every pod on a node shares, so lookups run in-process with no network hop and no per-lookup allocation. Go, Rust and Java SDKs.
